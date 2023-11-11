@@ -1,0 +1,16 @@
+{
+	"name": "ChineseWords",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "A database of Chinese words",
+	"scripts": {
+		"start": "cls && coffee -c . && node setup.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "John Deighan",
+	"license": "MIT",
+	"dependencies": {
+		"better-sqlite3": "^9.1.1"
+	}
+}
